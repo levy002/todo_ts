@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React from 'react';
-import TodoForm from './TodoForm';
-import { ITodo } from '../shared/Interfaces';
+import { ITodo } from './shared/Interfaces';
 import Todo from './Todo';
 
 interface IProps {
@@ -11,11 +11,10 @@ const Todos = (props: IProps) => {
   const { todos } = props;
   return (
     <>
-       <TodoForm />
-       <section>
+       <section className='flex flex-col gap-4 mt-5'>
           {
             todos.length === 0 ? (
-              <p>No tasks available!</p>
+              <p  className="flex bg-slate-50 items-center justify-center px-4 py-3 rounded-lg shadow-2xl text-blue-700 font-medium italic">No tasks!</p>
             ) : (
                 
                     todos.map((todo: ITodo) => (

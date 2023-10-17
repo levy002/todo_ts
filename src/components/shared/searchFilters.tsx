@@ -1,4 +1,5 @@
-import React from "react";;
+/* eslint-disable */
+import React from 'react';;
 
 interface IProps {
   setSearchQuery: (query: string) => void;
@@ -21,10 +22,10 @@ const SearchFilter = (props: IProps) => {
   }
 
   return (
-    <section>
-    <input type="text" onChange={handleSearch} placeholder="Search" />
+    <section className='flex bg-slate-200 rounded-r-full rounded-l-full'>
+    <input type="text" onChange={handleSearch} placeholder="Search" className='cursor-pointer outline-none w-full rounded-l-full py-3 px-5 bg-slate-200' />
     
-    <select onChange={handleCategory}>
+    <select onChange={handleCategory} className='cursor-pointer outline-none w-6/12 rounded-full bg-orange-600 text-white p-2 font-medium'>
       {categories.map((category: string) => (
         <option value={category} key={category}>
           {category}
