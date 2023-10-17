@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocalStorage } from 'usehooks-ts';
-import { useForm, SubmitHandler } from "react-hook-form"
+import { useForm, SubmitHandler } from "react-hook-form";
 import { ITodo } from '../shared/Interfaces';
 
 const TodoForm: React.FC = () => {

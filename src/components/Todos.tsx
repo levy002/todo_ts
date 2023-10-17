@@ -14,7 +14,7 @@ const Todos = (props: IProps) => {
        <TodoForm />
        <section>
           {
-            todos === null ? (
+            todos.length === 0 ? (
               <p>No tasks available!</p>
             ) : (
                 

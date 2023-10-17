@@ -1,4 +1,4 @@
-enum CategoryEnum {
+export enum CategoryEnum {
     Home = "Home",
     School = "School",
     Sport = "Sport",
@@ -9,4 +9,8 @@ export interface ITodo {
   description: string
   category: CategoryEnum
   id: number
+}
+
+export interface ISearchQuery {
+    description: string
 }
