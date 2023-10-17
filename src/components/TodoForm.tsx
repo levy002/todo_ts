@@ -1,22 +1,14 @@
 import React from 'react';
+import { useLocalStorage } from 'usehooks-ts';
 import { useForm, SubmitHandler } from "react-hook-form"
-
-enum CategoryEnum {
-    Home = "Home",
-    School = "School",
-    Sport = "Sport",
-    Other = "Other"
-}
-
-interface ITodoInput {
-  description: string
-  category: CategoryEnum
-}
+import { ITodo } from '../shared/Interfaces';
 
 const TodoForm: React.FC = () => {
-  const { register, handleSubmit, reset } = useForm<ITodoInput>()
-  const onSubmit: SubmitHandler<ITodoInput> = (data) => {
-    console.log(data);
+  const { register, handleSubmit, reset } = useForm<ITodo>();
+  const [todos, setTodos] = useLocalStorage<ITodo[]>('todos', []);
+
+  const onSubmit: SubmitHandler<ITodo> = (data) => { 
+  setTodos([...todos, {...data, id: Math.floor(Math.random() * 999)}]);
 }
 
   return (
