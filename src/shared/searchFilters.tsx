@@ -1,23 +1,37 @@
-import React from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
-import { ISearchQuery } from "./Interfaces";
+import React from "react";;
 
 interface IProps {
-  setSearchQuery: (data: string) => void;
+  setSearchQuery: (query: string) => void;
+  setCategory: (category: string) => void
 }
 
+const categories: string[] = ['All', 'School', 'Home', 'Sport']
+
 const SearchFilter = (props: IProps) => {
-  const { setSearchQuery } = props;
+  const { setSearchQuery, setCategory } = props;
 
   const handleSearch = (e: any) => {
     const query = e.target.value
     setSearchQuery(query.toLowerCase())
   }
 
+  const handleCategory = (e: any) => {
+    const category = e.target.value
+    setCategory(category)
+  }
+
   return (
-      <div>
-        <input type='text' onChange={handleSearch} placeholder='Search' />
-      </div>
+    <section>
+    <input type="text" onChange={handleSearch} placeholder="Search" />
+    
+    <select onChange={handleCategory}>
+      {categories.map((category: string) => (
+        <option value={category} key={category}>
+          {category}
+        </option>
+      ))}
+    </select>
+  </section>
   );
 };
 
