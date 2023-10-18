@@ -1,46 +1,125 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  <h3>TO-DO</h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 📗 Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 TO-DO <a name="about-project"></a>
 
-### `npm run build`
+**TO-D0 App** is a user-friendly React application designed to simplify task management. With the ability to add, categorize, and search for tasks, the app ensures your to-do list is always at your fingertips. Your tasks are stored securely in your browser's localStorage, meaning you won't lose them, even if you refresh the page or return later. Try Todo App now to enjoy efficient and hassle-free task organization.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+      <li><a href="https://tailwindcss.com/docs/installation">TailwindCSS</a></li>
+  </ul>
 
-### `npm run eject`
+<!-- Features -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Add new Todo**
+- **Todo Filters**
+- **Todos are stored in LocalStorage**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- LIVE DEMO -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+- [Live Demo Link](https://levy-ukwishaka-countries-info.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+ 
+ - Code editor
+ - Browser
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/levy002/todo_ts
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd <directory>
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+
+```sh
+  npm start
+```
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **LEVY UKWISHAKA**
+
+- GitHub: [@levy002](https://github.com/levy002)
+- Twitter: [@levy_ukwishaka](https://twitter.com/levy_ukwishaka)
+- LinkedIn: [@levy-ukwishaka](https://www.linkedin.com/in/levy-ukwishaka/)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please leave ⭐️ 
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
