@@ -10,6 +10,7 @@ const TodoForm: React.FC = () => {
 
   const onSubmit: SubmitHandler<ITodo> = (data) => { 
   setTodos([...todos, {...data, id: Math.floor(Math.random() * 999)}]);
+  reset();
 }
 
   return (
