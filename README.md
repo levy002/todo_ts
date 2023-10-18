@@ -30,6 +30,18 @@
 
 **TO-D0 App** is a user-friendly React application designed to simplify task management. With the ability to add, categorize, and search for tasks, the app ensures your to-do list is always at your fingertips. Your tasks are stored securely in your browser's localStorage, meaning you won't lose them, even if you refresh the page or return later. Try Todo App now to enjoy efficient and hassle-free task organization.
 
+
+## APP SCREENSHOTS
+<div>
+  <img src='./src/assets/mobile.png' width="49%" />
+  <img src='./src/assets/ipad.png' width="49%" />
+</div>
+
+<div>
+  <img src='./src/assets/laptop.png'/>
+</div>
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -52,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://levy-ukwishaka-countries-info.netlify.app/)
+- [Live Demo Link](coming soon...)
 
 <!-- GETTING STARTED -->
 
