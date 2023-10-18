@@ -9,7 +9,6 @@ const Todo = (props: ITodo): ReactElement => {
 
   const handleCopyToClipboard = (data: string) => {
     copy(data);
-    console.log(value)
     setCopyStatus("copied");
     setTimeout(() => { setCopyStatus("")}, 1000);
   };
