@@ -1,5 +1,4 @@
-/* eslint-disable */
-import React from 'react';;
+import React from 'react';
 
 interface IProps {
   setSearchQuery: (query: string) => void;

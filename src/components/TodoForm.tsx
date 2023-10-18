@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import { useLocalStorage } from 'usehooks-ts';
 import { useForm, SubmitHandler } from "react-hook-form";

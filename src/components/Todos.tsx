@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import { ITodo } from './shared/Interfaces';
 import Todo from './Todo';

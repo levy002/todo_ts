@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { ReactElement, useState } from "react";
 import { useCopyToClipboard } from "usehooks-ts";
 import { ITodo } from "./shared/Interfaces";

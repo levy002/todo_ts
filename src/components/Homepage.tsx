@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useCallback, useEffect, useState } from 'react';
 import { useReadLocalStorage } from 'usehooks-ts';
 import Todos from './Todos';
