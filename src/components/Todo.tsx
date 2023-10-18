@@ -9,17 +9,21 @@ const Todo = (props: ITodo): ReactElement => {
 
   const handleCopyToClipboard = (data: string) => {
     copy(data);
+    console.log(value)
     setCopyStatus("copied");
-    setTimeout(() => { setCopyStatus("")}, 1500);
+    setTimeout(() => { setCopyStatus("")}, 1000);
   };
 
   return (
     <div className="flex bg-slate-50 items-center justify-between px-4 py-3 rounded-lg shadow-2xl">
-      <p className='font-medium text-orange-600'>{description}</p>
-      <p className='bg-slate-200 px-3 font-medium text-sm py-1 rounded-full text-blue-700'>{category}</p>
+      <p className='font-medium text-orange-600 flex-1'>{description}</p>
+      <div className="w-1/12 flex items-center flex-1">
+      <p className='bg-slate-200 px-3 font-medium text-sm py-1 rounded-full text-blue-700 w-20 text-center'>{category}</p>
+      </div>
       
-      <div className='flex justify-end gap-2 w-2/12'>
-      <p className='text-orange-600'>{copyStatus}</p>
+      
+      <div className='flex justify-end gap-2 w-2/12 relative'>
+      <p className='text-orange-600 absolute bottom-2 bg-slate-100 px-2 text-sm rounded-full'>{copyStatus}</p>
         <div
           onClick={() =>
             handleCopyToClipboard(
