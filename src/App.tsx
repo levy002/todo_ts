@@ -3,7 +3,7 @@ import HomePage from './components/Homepage';
 
 const App = () => {
    return (
-    <div className="h-full flex justify-center items-center py-12 w-full">
+    <div className="h-full min-h-screen flex justify-center items-center py-12 w-full">
        <HomePage />
     </div>
    );
