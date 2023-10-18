@@ -32,7 +32,7 @@
 
 ## APP SCREENSHOTS
 <div>
-  <img src='./src/assets/laptop.png' width="49%" />
+  <img src='./src/assets/mobile .png' width="49%" />
   <img src='./src/assets/ipad.png' width="49%" />
 </div>
 
