@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](todo-ptaw0hec3-levy002.vercel.app)
+- [Live Demo Link](https://todo-ptaw0hec3-levy002.vercel.app/)
 
 <!-- GETTING STARTED -->
 
